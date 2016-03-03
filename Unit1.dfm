@@ -102,6 +102,7 @@ object Form1: TForm1
         Height = 25
         Caption = 'cosinus'
         TabOrder = 3
+        OnClick = Button2Click
       end
     end
     object Panel3: TPanel
