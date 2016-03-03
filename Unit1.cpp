@@ -104,3 +104,22 @@ void __fastcall TForm1::BitBtn1Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	//FCE SINUS
+	int x,y;
+	y = int(amplituda*sin((-Image1->Width/2)*3.14/180));
+
+	//POÈÁTEÈNÍ BOD
+
+	Image1->Canvas->MoveTo(0,Image1->Height/2-y-posun);
+
+	for(x=0;x<Image1->Width;x++){
+		y = int(amplituda*sin((x-Image1->Width/2)*3.14/180));
+		Image1->Canvas->LineTo(x,Image1->Height/2-y-posun);
+	}
+
+}
+//---------------------------------------------------------------------------
+
+

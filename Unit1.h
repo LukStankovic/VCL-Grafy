@@ -36,6 +36,7 @@ __published:	// IDE-managed Components
 	void __fastcall ColorListBox1Exit(TObject *Sender);
 	void __fastcall FormResize(TObject *Sender);
 	void __fastcall BitBtn1Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
 private:	// User declarations
    int amplituda,posun;
 public:		// User declarations

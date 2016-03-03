@@ -72,6 +72,7 @@ object Form1: TForm1
         Height = 25
         Caption = 'sinus'
         TabOrder = 0
+        OnClick = Button1Click
       end
       object ScrollBar2: TScrollBar
         Left = 184
